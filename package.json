@@ -1,0 +1,24 @@
+{
+  "name": "create-emerald-app",
+  "version": "1.0.0",
+  "description": "Create a new Emerald project with a single command",
+  "bin": {
+    "create-emerald-app": "./bin/index.js"
+  },
+  "files": [
+    "bin",
+    "emerald",
+    "public",
+    "README.md"
+  ],
+  "keywords": [
+    "webgl",
+    "cli",
+    "graphics",
+    "game",
+    "engine"
+  ],
+  "author": "vahan-gev",
+  "license": "MIT",
+  "type": "commonjs"
+}

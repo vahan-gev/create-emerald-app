@@ -19,6 +19,10 @@
     "engine"
   ],
   "author": "vahan-gev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vahan-gev/create-emerald-app.git"
+  },
   "license": "MIT",
   "type": "commonjs"
 }

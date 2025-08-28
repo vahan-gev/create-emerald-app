@@ -1,6 +1,6 @@
 {
   "name": "create-emerald-app",
-  "version": "1.0.2",
+  "version": "1.0.8",
   "description": "Create a new Emerald project with a single command",
   "bin": {
     "create-emerald-app": "./bin/index.js"

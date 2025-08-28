@@ -1,20 +1,20 @@
 {
   "name": "create-emerald-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a new Emerald project with a single command",
   "bin": {
     "create-emerald-app": "./bin/index.js"
   },
   "files": [
     "bin",
-    "emerald",
-    "public",
+    "data",
     "README.md"
   ],
   "keywords": [
     "webgl",
     "cli",
     "graphics",
+    "2d",
     "game",
     "engine"
   ],

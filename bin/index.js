@@ -113,7 +113,7 @@ const packageJson = {
     "vite-node": "^3.2.4",
   },
   dependencies: {
-    emeraldengine: "^2.0.1",
+    emeraldengine: "^2.0.2",
   },
 };
 

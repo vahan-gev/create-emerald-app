@@ -97,6 +97,21 @@ if (fs.existsSync(projectPath)) {
   process.exit(1);
 }
 
+function getLatestVersion(packageName) {
+  try {
+    return execSync(`npm view ${packageName} version`, {
+      encoding: "utf8",
+    }).trim();
+  } catch (error) {
+    console.warn(
+      warning(
+        `Failed to fetch latest version for ${packageName}. Using default version.`
+      )
+    );
+    return "2.1.1";
+  }
+}
+
 const packageJson = {
   name: projectName,
   private: true,
@@ -113,7 +128,7 @@ const packageJson = {
     "vite-node": "^3.2.4",
   },
   dependencies: {
-    emeraldengine: "^2.0.2",
+    emeraldengine: `^${getLatestVersion("emeraldengine")}`,
   },
 };
 
